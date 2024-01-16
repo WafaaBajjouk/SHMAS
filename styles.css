@@ -1,0 +1,165 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f7f6; /* Light greenish background */
+    color: #434343; /* Dark gray text color */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #4CAF50; /* Green header background */
+    color: #fff;
+    padding: 20px 0;
+}
+
+.header-logo {
+    max-width: 100px;
+    margin-right: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #FFA500; /* Orange on hover */
+}
+
+.hero-section {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero-section h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #434343; /* Dark gray heading color */
+}
+
+.hero-section p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #FFA500; /* Orange CTA button */
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #4CAF50; /* Green on hover */
+}
+
+.marketing-section {
+    margin: 50px 0;
+}
+
+.marketing-section h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.marketing-points {
+    display: flex;
+    justify-content: space-around;
+}
+
+.marketing-point {
+    text-align: center;
+}
+
+.marketing-point img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.marketing-point p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+#about {
+    padding: 20px;
+}
+
+#about h2 {
+    font-size: 3em;
+    color: #434343; /* Dark gray heading color */
+    margin-bottom: 20px;
+}
+
+#about p {
+    line-height: 1.5;
+    color: #666;
+}
+
+#about h3 {
+    font-size: 2em;
+    color: #434343; /* Dark gray heading color */
+    margin-top: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 10px;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: #4CAF50; /* Green footer background */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
